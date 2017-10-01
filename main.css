@@ -4,8 +4,23 @@
  * found in the LICENSE file.
  */
 
+ .sticky-note {
+    height: 200px;
+    width: 200px;
+    color: #7f6c04;
+    background: #f9dd45;
+    border-radius: 10px;
+    border: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    margin-top:10px;
+    overflow: hidden;
+}
+
 body {
   margin: 5px 10px 10px;
+  background-image: url("https://pixabay.com/get/eb32b40a21f4093ed1534705fb0938c9bd22ffd41cb1174994f8c77bae/sea-2755908_1920.jpg");
 }
 
 h1 {
