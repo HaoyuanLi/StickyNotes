@@ -3,14 +3,13 @@
   "version" : "0.1",
   "description" : "A chrome extension that allows you to post sticky notes on your friends' and family's wall!",
   "permissions": [
-    "browsingData"
+    "tabs"
   ],
   "browser_action": {
      "default_icon": "icon.png"
   },
-  "chrome_settings_overrides": {
-    "homepage": "http://www.homepage.com",
-    "startup_pages": ["http://www.google.com"]
-   },
+  "chrome_url_overrides" : {
+    "newtab": "main.html"
+  },
   "manifest_version": 2
 }
